@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js" integrity="sha512-odNmoc1XJy5x1TMVMdC7EMs3IVdItLPlCeL5vSUPN2llYKMJ2eByTTAIiiuqLg+GdNr9hF6z81p27DArRFKT7A==" crossorigin="anonymous" referrerpolicy="no-referrer">        
+    </script>
+    <link rel="stylesheet" href="./style/main.css">
+</head>
+<body>
+    <header><h1>Зоряний навігатор</h1></header>
+    <div class="wrap">
+    <aside>
+        <label for="planetname"><h2>Куди хочете відправитись?</h2>
+        </label>
+        <div class="selector">
+            <select name="planetname" id="">
+                <option value="1">Tatooine</option>
+                <option value="2">Alderaan</option>
+                <option value="3">Yavin IV</option>
+                <option value="4">Hoth</option>
+                <option value="5">Dagobah</option>
+                <option value="6">Bespin</option>
+                <option value="7">Endor</option>
+                <option value="8">Naboo</option>
+                <option value="9">Coruscant</option>
+                <option value="10">Kamino</option>
+                <option value="11">Geonosis</option>
+                <option value="12">Utapau</option>
+                <option value="13">Mustafar</option>
+                <option value="14">Kashyyyk</option>
+                <option value="15">Polis Massa</option>
+                <option value="16">Mygeeto</option>
+                <option value="17">Felucia</option>
+                <option value="18">Cato Neimoidia</option>
+            </select>    
+        </div>
+        <div class="input">
+            <label for="number"><h4>Для слабовивчених планет скористайтеся числовим вводом </h5></label>
+            <input type="number" name="planetnumber">
+        </div>
+        <div class="buttoncontainer">
+            <input type="button" name="surch" class="button" value="Шукати">
+        </div>
+    </aside>
+    <main>
+        <h2>Інформацію про планету</h2>
+        <ul class="info">        
+        </ul>
+    </main>
+    </div>
+    <script src="./script/main.js"></script>
+</body>
+</html>
