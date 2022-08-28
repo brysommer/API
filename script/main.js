@@ -24,7 +24,6 @@ const removePreloader = (el5) => {
 }
 
 const renderPlanet = (result) => {
-    
     let planetname = `<h3>Name: ${result.data.name} </h3>`;
     let diameter = `<li>diameter: ${result.data.diameter} </li>`;
     let rotation_period = `<li>rotation period: ${result.data.rotation_period} </li>`;
